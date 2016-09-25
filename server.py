@@ -36,4 +36,4 @@ def add_client_file():
     return 'ERR'
 
 if __name__ == '__main__':
-    app.run()
+    app.run(port=80)
