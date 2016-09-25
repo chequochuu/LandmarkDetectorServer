@@ -30,7 +30,7 @@ def add_client_file():
         filename = imgfile.filename
         imgfile.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
         # Xử lý, tính toán, gọi MATLAB, ... ở đây
-        octave.addpath("/home/che/Downloads/train")
+        octave.addpath("/root/LandmarkDetectorServer")
         t = octave.thu()
         return str(t)
     return 'ERR'
