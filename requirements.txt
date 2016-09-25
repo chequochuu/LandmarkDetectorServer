@@ -1,3 +1,4 @@
 flask
 oct2py
 numpy
+scipy
