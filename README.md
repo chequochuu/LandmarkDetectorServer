@@ -1,7 +1,7 @@
 # LandmarkDetectorServer
 export LC_ALL=C  
 sudo apt-get install python3-pip  
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 
 mkdir ~/.ssh  
 chmod 700 ~/.ssh  
